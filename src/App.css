@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+.char:hover {
+  cursor: pointer;
+}
+
+.charContainer {
+    display: block;
+    flex-direction: row;
+    column-count: 3;
+}
+
+.char {
+  border: 1px grey solid;
+  max-width: 50px;
+  text-align: center;
+  background-color: gray;
+}
+
+.handleActive {
+  background-color: blue;
+}
